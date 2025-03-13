@@ -1,4 +1,4 @@
-# AlexHuber.github.io
+# SirAlexus1811.github.io
 This is my own Website.
 I started this project as a test so dont expect much.
 Copyright infos are in the COPYRIGHT.md file.
