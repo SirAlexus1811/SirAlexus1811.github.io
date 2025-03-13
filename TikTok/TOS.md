@@ -2,7 +2,7 @@
 
 **Effective Date:** 13.03.2025  
 
-🚨 **Note:** These Terms of Service apply **only to the PostAPI application**. 
+**Note:** These Terms of Service apply **only to the PostAPI application**. 
 
 ## 1. Acceptance of Terms  
 By using PostAPI ("the Service"), you agree to these Terms of Service. If you do not agree to these terms, you may not access or use the Service.  

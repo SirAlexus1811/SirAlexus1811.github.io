@@ -2,7 +2,7 @@
 
 **Effective Date:** 13.03.2025  
 
-🚨 **Note:** This Privacy Policy applies **only to the PostAPI application** and **not to the website**.  
+**Note:** This Privacy Policy applies **only to the PostAPI application** and **not to the website**.  
 
 ## 1. Introduction  
 At PostAPI, we value your privacy. This Privacy Policy explains how we collect, use, and protect the information that you provide when using the Service.  
