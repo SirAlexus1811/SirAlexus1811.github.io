@@ -1,1 +1,0 @@
-This is the URL Verifaction File for my TikTok application "PostAPI"
