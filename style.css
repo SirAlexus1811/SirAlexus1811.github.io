@@ -1,0 +1,32 @@
+.pageFooter {
+    background-color: aliceblue;
+    position: relative;
+    height: 50px;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;  
+    justify-content: center;  
+    display: flex;
+    border-radius: 25px;
+}
+
+.buttonFooter {
+    bottom: 10px; /* Abstand vom unteren Rand des Footers */
+    left: 50%;
+    padding: 10px 15px;
+    background: linear-gradient(to top right, #66ccff var(--p1, 15%), #ccffff var(--p2, 100%));
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: 1s, background-position 0s;
+}
+
+.buttonFooter:hover {
+    --p1: 20%;
+    --p2: 80%;
+}
+
+body {
+    background-image: none;
+}
