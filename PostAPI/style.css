@@ -5,6 +5,7 @@
     --mainLorange: #fb9902;
     --mainyellow: #FCCB1A;
     --mainbrown: #342B09;
+    --mainBeige: #d6c49b;
 }
 
 body {
@@ -31,6 +32,10 @@ td {
     color: wheat; /*Tempo*/
 }
 
+p {
+    color: var(--mainbrown);
+}
+
 #imgLogo {
     width: auto;
     height: 100px;
@@ -55,6 +60,31 @@ td {
 
 #tNav {
     width: 100%;
+}
+
+.mainArticle {
+    height: 700px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 100px;
+    background-color: var(--mainBeige);
+}
+
+.spacing {
+    display: inline-block;
+}
+
+.Acontent {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#picNetHome {
+    width: 50%;
+    border-radius: 25%;
 }
 
 /*For Switching between Articles with the buttons in NavBar*/
