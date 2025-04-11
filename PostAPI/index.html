@@ -1,10 +1,57 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>PostAPI</title>
-</head>
-<body>
-    <h1>Official Website of PostAPI</h1>
-    <h3>Please note: This site is still Work-In-Progress!</h3>
-</body>
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" defer></script>
+        <title>PostAPI</title>
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <img id="imgLogo" src="img/mylogo1kX1k.png" alt="PostAPI-Logo">
+                    </td>
+                    <td>
+                        <p id="titleLogo">PostAPI - Manage posting on your Soical Media Accounts </p>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <nav id="navBar">
+            <table id="tNav">
+                <tr>
+                    <td>
+                        <button class="switcherButton" onclick="showAndHideOthers('#Home', 'beHidden')">Home</button>
+                    </td>
+                    <td>
+                        <button class="switcherButton" onclick="showAndHideOthers('#WhatAndHow', 'beHidden')">What and How?</button>
+                    </td>
+                    <td>
+                        <button class="switcherButton" onclick="showAndHideOthers('#Download', 'beHidden')">Download</button>
+                    </td>
+                    <td>
+                        <button class="switcherButton" onclick="showAndHideOthers('#Impressum', 'beHidden')">Impressum</button>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main class="mainBody">
+            <article id="Home" class="goesHide">
+                <p>HomePage</p>
+            </article>
+            <article id="WhatAndHow" class="goesHide beHidden">
+                <p>WhatAndHow</p>
+            </article>
+            <article id="Download" class="goesHide beHidden">
+                <p>Download Page</p>
+            </article>
+            <article id="Impressum" class="goesHide beHidden">
+                <p>Impressum</p>
+            </article>
+        </main>
+        <button id="scrollUpBtn" class="scroll-up">↑</button>
+    </body>
 </html>
