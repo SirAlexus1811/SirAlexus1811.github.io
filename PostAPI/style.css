@@ -78,7 +78,9 @@ p {
 }
 
 .Acontent {
+    width: 84%;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 8%;
 }
@@ -86,12 +88,19 @@ p {
 .imgBox {
     float: left;
     width: 50%;
-    margin-bottom: 10%;
+    max-width: 100%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+
+.imgquestionBox {
+    width: 50%;
 }
 
 .contentBox {
     width: 40%;
-    float: right;
+    min-width: 20%;
     font-size: larger;
 }
 
@@ -99,9 +108,12 @@ p {
     clear: both;
 }
 
-#picNetHome {
+.picMain {
     width: 100%;
+    height: auto;
     border-radius: 25%;
+    display: block;
+    object-fit: cover;
 }
 
 /*For Switching between Articles with the buttons in NavBar*/
