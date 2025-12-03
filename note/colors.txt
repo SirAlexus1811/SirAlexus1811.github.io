@@ -1,0 +1,11 @@
+/*
+    COLORS BEFORE CHANGE
+    #66ccff
+    aliceblue
+    #ccffff
+    VARI: #6667ab
+    OTHER: #5f4b8b
+    #2a2260
+    DOMINANT COLORS JS: rgb(0,24,24) rgb(24,48,48)
+*/
+
